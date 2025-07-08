@@ -21,8 +21,8 @@ class Menu:
 
         while True:  # 0__ Rodando em loop infinito a imagem
             self.window.blit(source=self.surf, dest=self.rect)  # 0__ Aqui esta colocando a img para rodar no retangulo
-            self.menu_text(70, "Mountain", COLOR_PURPLE, ((WIN_WIDTH / 2), 100))
-            self.menu_text(70, "Shooter", COLOR_PURPLE, ((WIN_WIDTH / 2), 140))
+            self.menu_text(70, "Mountain", COLOR_WHITE, ((WIN_WIDTH / 2), 100))
+            self.menu_text(70, "Shooter", COLOR_WHITE, ((WIN_WIDTH / 2), 140))
 
             for i in range(len(MENU_OPTION)):  # 0__ Criando a parte do menu
                 self.menu_text(40, MENU_OPTION[i], COLOR_WHITE, ((WIN_WIDTH / 2), 360 + 35 * i))
